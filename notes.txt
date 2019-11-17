@@ -20,3 +20,6 @@ git push -u origin develop
 
 git delete feature1
 
+git checkout master
+
+git pull
