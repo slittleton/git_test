@@ -10,3 +10,11 @@ git checkout -b feature1
 
 git commit -a -m "comment"
 
+git checkout develop
+
+git merge feature1
+
+git push -u origin develop
+
+git delete feature1
+
