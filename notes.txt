@@ -7,3 +7,6 @@ git push -u origin develop
 
 // feature branch
 git checkout -b feature1
+
+git commit -a -m "comment"
+
