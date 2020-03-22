@@ -1,3 +1,25 @@
+Basic Git Commands
+
+git add <filename>
+git commit -m "comment"
+
+// develop branch
 git checkout -b develop
+git push -u origin develop
+
+// feature branch
+git checkout -b feature1
+
+git commit -a -m "comment"
+
+git checkout develop
+
+git merge feature1
 
 git push -u origin develop
+
+git delete feature1
+
+git checkout master
+
+git pull
